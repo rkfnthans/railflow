@@ -1,0 +1,1058 @@
+Serial opened: /dev/cu.usbserial-2140 baud=115200
+Invalid RF1 line; invalid_count=1
+seq=1 ms=106
+CAR1 raw: 479 479 478
+CAR2 raw: 478 478 478
+CAR3 raw: 478 478 478
+status=First skipped=0
+seq=2 ms=206
+CAR1 raw: 539 539 539
+CAR2 raw: 539 539 539
+CAR3 raw: 539 539 539
+status=Sequential skipped=0
+seq=3 ms=306
+CAR1 raw: 621 620 620
+CAR2 raw: 619 619 618
+CAR3 raw: 617 617 616
+status=Sequential skipped=0
+seq=4 ms=406
+CAR1 raw: 597 596 596
+CAR2 raw: 595 595 594
+CAR3 raw: 593 593 592
+status=Sequential skipped=0
+seq=5 ms=506
+CAR1 raw: 592 592 592
+CAR2 raw: 592 591 591
+CAR3 raw: 590 590 589
+status=Sequential skipped=0
+seq=6 ms=606
+CAR1 raw: 584 584 583
+CAR2 raw: 582 581 580
+CAR3 raw: 579 579 578
+status=Sequential skipped=0
+seq=7 ms=706
+CAR1 raw: 566 565 564
+CAR2 raw: 564 563 563
+CAR3 raw: 562 562 561
+status=Sequential skipped=0
+seq=8 ms=806
+CAR1 raw: 617 617 617
+CAR2 raw: 617 616 616
+CAR3 raw: 616 615 615
+status=Sequential skipped=0
+seq=9 ms=906
+CAR1 raw: 633 633 633
+CAR2 raw: 633 633 633
+CAR3 raw: 633 633 633
+status=Sequential skipped=0
+seq=10 ms=1006
+CAR1 raw: 681 681 681
+CAR2 raw: 681 681 681
+CAR3 raw: 681 681 681
+status=Sequential skipped=0
+seq=11 ms=1106
+CAR1 raw: 728 727 726
+CAR2 raw: 725 724 723
+CAR3 raw: 722 722 721
+status=Sequential skipped=0
+seq=12 ms=1206
+CAR1 raw: 650 649 648
+CAR2 raw: 647 647 646
+CAR3 raw: 645 644 643
+status=Sequential skipped=0
+seq=13 ms=1306
+CAR1 raw: 607 607 607
+CAR2 raw: 607 607 607
+CAR3 raw: 607 607 607
+status=Sequential skipped=0
+seq=14 ms=1406
+CAR1 raw: 634 634 634
+CAR2 raw: 634 634 634
+CAR3 raw: 634 634 634
+status=Sequential skipped=0
+seq=15 ms=1506
+CAR1 raw: 664 664 663
+CAR2 raw: 663 662 662
+CAR3 raw: 662 661 661
+status=Sequential skipped=0
+seq=16 ms=1606
+CAR1 raw: 665 664 664
+CAR2 raw: 663 662 662
+CAR3 raw: 661 660 660
+status=Sequential skipped=0
+seq=17 ms=1707
+CAR1 raw: 644 644 643
+CAR2 raw: 643 642 642
+CAR3 raw: 642 641 640
+status=Sequential skipped=0
+seq=18 ms=1806
+CAR1 raw: 632 632 632
+CAR2 raw: 631 631 630
+CAR3 raw: 629 629 629
+status=Sequential skipped=0
+seq=19 ms=1906
+CAR1 raw: 620 619 619
+CAR2 raw: 619 618 618
+CAR3 raw: 617 617 617
+status=Sequential skipped=0
+seq=20 ms=2007
+CAR1 raw: 610 610 610
+CAR2 raw: 609 609 609
+CAR3 raw: 609 609 608
+status=Sequential skipped=0
+seq=21 ms=2106
+CAR1 raw: 619 618 618
+CAR2 raw: 618 617 617
+CAR3 raw: 617 617 617
+status=Sequential skipped=0
+seq=22 ms=2206
+CAR1 raw: 586 584 582
+CAR2 raw: 581 580 578
+CAR3 raw: 577 575 573
+status=Sequential skipped=0
+seq=23 ms=2307
+CAR1 raw: 560 560 560
+CAR2 raw: 560 560 560
+CAR3 raw: 560 560 560
+status=Sequential skipped=0
+seq=24 ms=2406
+CAR1 raw: 568 568 568
+CAR2 raw: 568 568 567
+CAR3 raw: 567 567 567
+status=Sequential skipped=0
+seq=25 ms=2506
+CAR1 raw: 650 651 651
+CAR2 raw: 652 652 653
+CAR3 raw: 653 654 654
+status=Sequential skipped=0
+seq=26 ms=2607
+CAR1 raw: 724 724 724
+CAR2 raw: 724 724 724
+CAR3 raw: 724 724 723
+status=Sequential skipped=0
+seq=27 ms=2706
+CAR1 raw: 730 729 729
+CAR2 raw: 728 727 727
+CAR3 raw: 726 725 724
+status=Sequential skipped=0
+seq=28 ms=2806
+CAR1 raw: 712 711 710
+CAR2 raw: 710 709 708
+CAR3 raw: 708 707 706
+status=Sequential skipped=0
+seq=29 ms=2907
+CAR1 raw: 699 698 697
+CAR2 raw: 697 696 695
+CAR3 raw: 695 694 694
+status=Sequential skipped=0
+seq=30 ms=3006
+CAR1 raw: 685 685 684
+CAR2 raw: 684 683 683
+CAR3 raw: 682 681 681
+status=Sequential skipped=0
+seq=31 ms=3106
+CAR1 raw: 677 677 676
+CAR2 raw: 676 675 675
+CAR3 raw: 674 674 673
+status=Sequential skipped=0
+seq=32 ms=3206
+CAR1 raw: 679 678 678
+CAR2 raw: 678 678 677
+CAR3 raw: 677 677 676
+status=Sequential skipped=0
+seq=33 ms=3306
+CAR1 raw: 678 677 677
+CAR2 raw: 676 676 675
+CAR3 raw: 675 674 674
+status=Sequential skipped=0
+seq=34 ms=3406
+CAR1 raw: 663 662 661
+CAR2 raw: 660 660 659
+CAR3 raw: 658 658 657
+status=Sequential skipped=0
+seq=35 ms=3506
+CAR1 raw: 634 633 632
+CAR2 raw: 632 631 631
+CAR3 raw: 630 630 629
+status=Sequential skipped=0
+seq=36 ms=3606
+CAR1 raw: 608 607 606
+CAR2 raw: 606 605 604
+CAR3 raw: 603 603 602
+status=Sequential skipped=0
+seq=37 ms=3706
+CAR1 raw: 564 562 561
+CAR2 raw: 560 558 557
+CAR3 raw: 556 554 553
+status=Sequential skipped=0
+seq=38 ms=3806
+CAR1 raw: 525 525 524
+CAR2 raw: 524 524 524
+CAR3 raw: 523 523 522
+status=Sequential skipped=0
+seq=39 ms=3906
+CAR1 raw: 521 521 521
+CAR2 raw: 521 520 520
+CAR3 raw: 520 520 520
+status=Sequential skipped=0
+seq=40 ms=4006
+CAR1 raw: 517 517 516
+CAR2 raw: 516 516 516
+CAR3 raw: 515 515 515
+status=Sequential skipped=0
+seq=41 ms=4106
+CAR1 raw: 508 507 506
+CAR2 raw: 506 505 505
+CAR3 raw: 504 504 503
+status=Sequential skipped=0
+seq=42 ms=4206
+CAR1 raw: 495 494 493
+CAR2 raw: 493 492 492
+CAR3 raw: 491 491 490
+status=Sequential skipped=0
+seq=43 ms=4306
+CAR1 raw: 484 483 482
+CAR2 raw: 482 481 481
+CAR3 raw: 480 479 479
+status=Sequential skipped=0
+seq=44 ms=4406
+CAR1 raw: 459 459 458
+CAR2 raw: 458 457 457
+CAR3 raw: 457 457 457
+status=Sequential skipped=0
+seq=45 ms=4506
+CAR1 raw: 482 482 482
+CAR2 raw: 482 482 481
+CAR3 raw: 481 481 481
+status=Sequential skipped=0
+seq=46 ms=4606
+CAR1 raw: 475 475 474
+CAR2 raw: 474 473 473
+CAR3 raw: 472 472 471
+status=Sequential skipped=0
+seq=47 ms=4706
+CAR1 raw: 466 465 465
+CAR2 raw: 465 464 464
+CAR3 raw: 463 463 462
+status=Sequential skipped=0
+seq=48 ms=4806
+CAR1 raw: 457 457 456
+CAR2 raw: 456 455 455
+CAR3 raw: 455 454 454
+status=Sequential skipped=0
+seq=49 ms=4907
+CAR1 raw: 450 450 449
+CAR2 raw: 449 448 448
+CAR3 raw: 447 447 446
+status=Sequential skipped=0
+seq=50 ms=5006
+CAR1 raw: 441 440 440
+CAR2 raw: 439 439 438
+CAR3 raw: 438 437 437
+status=Sequential skipped=0
+seq=51 ms=5106
+CAR1 raw: 433 433 432
+CAR2 raw: 432 431 431
+CAR3 raw: 431 430 430
+status=Sequential skipped=0
+seq=52 ms=5207
+CAR1 raw: 425 425 424
+CAR2 raw: 424 423 423
+CAR3 raw: 422 422 421
+status=Sequential skipped=0
+seq=53 ms=5306
+CAR1 raw: 416 415 415
+CAR2 raw: 414 414 413
+CAR3 raw: 413 412 412
+status=Sequential skipped=0
+seq=54 ms=5406
+CAR1 raw: 406 406 405
+CAR2 raw: 405 405 404
+CAR3 raw: 404 404 403
+status=Sequential skipped=0
+seq=55 ms=5507
+CAR1 raw: 399 399 398
+CAR2 raw: 398 397 397
+CAR3 raw: 396 396 396
+status=Sequential skipped=0
+seq=56 ms=5606
+CAR1 raw: 392 392 391
+CAR2 raw: 391 390 390
+CAR3 raw: 389 389 388
+status=Sequential skipped=0
+seq=57 ms=5706
+CAR1 raw: 388 388 387
+CAR2 raw: 387 387 386
+CAR3 raw: 386 386 385
+status=Sequential skipped=0
+seq=58 ms=5807
+CAR1 raw: 373 373 372
+CAR2 raw: 372 372 372
+CAR3 raw: 371 371 370
+status=Sequential skipped=0
+seq=59 ms=5906
+CAR1 raw: 368 367 367
+CAR2 raw: 367 366 366
+CAR3 raw: 366 366 366
+status=Sequential skipped=0
+seq=60 ms=6006
+CAR1 raw: 362 362 361
+CAR2 raw: 361 361 360
+CAR3 raw: 360 360 359
+status=Sequential skipped=0
+seq=61 ms=6107
+CAR1 raw: 359 358 358
+CAR2 raw: 358 357 357
+CAR3 raw: 357 357 356
+status=Sequential skipped=0
+seq=62 ms=6206
+CAR1 raw: 356 356 356
+CAR2 raw: 356 356 356
+CAR3 raw: 355 355 354
+status=Sequential skipped=0
+seq=63 ms=6306
+CAR1 raw: 353 353 353
+CAR2 raw: 353 353 353
+CAR3 raw: 353 352 352
+status=Sequential skipped=0
+seq=64 ms=6406
+CAR1 raw: 350 350 349
+CAR2 raw: 349 348 348
+CAR3 raw: 348 347 347
+status=Sequential skipped=0
+seq=65 ms=6506
+CAR1 raw: 338 338 337
+CAR2 raw: 337 336 336
+CAR3 raw: 336 336 336
+status=Sequential skipped=0
+seq=66 ms=6606
+CAR1 raw: 342 342 342
+CAR2 raw: 342 341 341
+CAR3 raw: 341 341 340
+status=Sequential skipped=0
+seq=67 ms=6706
+CAR1 raw: 332 332 331
+CAR2 raw: 331 330 330
+CAR3 raw: 329 329 328
+status=Sequential skipped=0
+seq=68 ms=6806
+CAR1 raw: 315 315 315
+CAR2 raw: 315 314 314
+CAR3 raw: 313 313 313
+status=Sequential skipped=0
+seq=69 ms=6906
+CAR1 raw: 316 316 316
+CAR2 raw: 316 316 315
+CAR3 raw: 315 315 315
+status=Sequential skipped=0
+seq=70 ms=7006
+CAR1 raw: 327 327 327
+CAR2 raw: 327 326 326
+CAR3 raw: 326 326 326
+status=Sequential skipped=0
+seq=71 ms=7106
+CAR1 raw: 337 337 337
+CAR2 raw: 337 337 337
+CAR3 raw: 337 337 337
+status=Sequential skipped=0
+seq=72 ms=7206
+CAR1 raw: 340 340 339
+CAR2 raw: 339 338 338
+CAR3 raw: 338 338 337
+status=Sequential skipped=0
+seq=73 ms=7306
+CAR1 raw: 336 336 336
+CAR2 raw: 336 336 336
+CAR3 raw: 336 336 336
+status=Sequential skipped=0
+seq=74 ms=7406
+CAR1 raw: 334 334 333
+CAR2 raw: 333 333 333
+CAR3 raw: 332 332 331
+status=Sequential skipped=0
+seq=75 ms=7506
+CAR1 raw: 331 330 330
+CAR2 raw: 330 329 329
+CAR3 raw: 329 329 328
+status=Sequential skipped=0
+seq=76 ms=7606
+CAR1 raw: 328 328 328
+CAR2 raw: 328 327 327
+CAR3 raw: 327 326 326
+status=Sequential skipped=0
+seq=77 ms=7706
+CAR1 raw: 327 327 326
+CAR2 raw: 326 326 326
+CAR3 raw: 325 325 324
+status=Sequential skipped=0
+seq=78 ms=7806
+CAR1 raw: 326 326 326
+CAR2 raw: 326 325 325
+CAR3 raw: 325 325 324
+status=Sequential skipped=0
+seq=79 ms=7906
+CAR1 raw: 324 324 323
+CAR2 raw: 323 322 322
+CAR3 raw: 322 322 322
+status=Sequential skipped=0
+seq=80 ms=8006
+CAR1 raw: 322 322 322
+CAR2 raw: 322 321 321
+CAR3 raw: 321 321 320
+status=Sequential skipped=0
+seq=81 ms=8107
+CAR1 raw: 320 320 320
+CAR2 raw: 320 320 320
+CAR3 raw: 320 320 320
+status=Sequential skipped=0
+seq=82 ms=8206
+CAR1 raw: 323 323 323
+CAR2 raw: 322 322 322
+CAR3 raw: 322 322 322
+status=Sequential skipped=0
+seq=83 ms=8306
+CAR1 raw: 321 321 320
+CAR2 raw: 320 320 320
+CAR3 raw: 320 320 320
+status=Sequential skipped=0
+seq=84 ms=8407
+CAR1 raw: 324 324 324
+CAR2 raw: 324 324 324
+CAR3 raw: 324 324 323
+status=Sequential skipped=0
+seq=85 ms=8506
+CAR1 raw: 320 320 320
+CAR2 raw: 320 320 320
+CAR3 raw: 320 320 320
+status=Sequential skipped=0
+seq=86 ms=8606
+CAR1 raw: 325 325 325
+CAR2 raw: 324 324 323
+CAR3 raw: 323 323 322
+status=Sequential skipped=0
+seq=87 ms=8707
+CAR1 raw: 320 320 320
+CAR2 raw: 320 320 320
+CAR3 raw: 320 320 320
+status=Sequential skipped=0
+seq=88 ms=8806
+CAR1 raw: 317 317 316
+CAR2 raw: 316 315 315
+CAR3 raw: 314 314 313
+status=Sequential skipped=0
+seq=89 ms=8906
+CAR1 raw: 316 316 316
+CAR2 raw: 316 316 316
+CAR3 raw: 316 316 315
+status=Sequential skipped=0
+seq=90 ms=9007
+CAR1 raw: 296 295 295
+CAR2 raw: 294 293 292
+CAR3 raw: 292 291 290
+status=Sequential skipped=0
+seq=91 ms=9106
+CAR1 raw: 263 262 262
+CAR2 raw: 261 261 260
+CAR3 raw: 260 260 260
+status=Sequential skipped=0
+seq=92 ms=9206
+CAR1 raw: 259 259 258
+CAR2 raw: 258 258 257
+CAR3 raw: 257 257 256
+status=Sequential skipped=0
+seq=93 ms=9307
+CAR1 raw: 288 289 289
+CAR2 raw: 289 289 290
+CAR3 raw: 290 290 290
+status=Sequential skipped=0
+seq=94 ms=9406
+CAR1 raw: 309 309 308
+CAR2 raw: 308 308 308
+CAR3 raw: 307 307 307
+status=Sequential skipped=0
+seq=95 ms=9506
+CAR1 raw: 309 309 309
+CAR2 raw: 308 308 308
+CAR3 raw: 307 307 307
+status=Sequential skipped=0
+seq=96 ms=9606
+CAR1 raw: 302 302 302
+CAR2 raw: 302 302 302
+CAR3 raw: 302 302 301
+status=Sequential skipped=0
+seq=97 ms=9706
+CAR1 raw: 301 300 300
+CAR2 raw: 300 299 299
+CAR3 raw: 298 298 297
+status=Sequential skipped=0
+seq=98 ms=9806
+CAR1 raw: 296 296 296
+CAR2 raw: 296 296 296
+CAR3 raw: 296 296 296
+status=Sequential skipped=0
+seq=99 ms=9906
+CAR1 raw: 293 293 293
+CAR2 raw: 293 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=100 ms=10006
+CAR1 raw: 294 294 294
+CAR2 raw: 294 294 294
+CAR3 raw: 294 294 293
+status=Sequential skipped=0
+seq=101 ms=10106
+CAR1 raw: 291 291 291
+CAR2 raw: 290 290 290
+CAR3 raw: 290 290 289
+status=Sequential skipped=0
+seq=102 ms=10206
+CAR1 raw: 294 294 294
+CAR2 raw: 294 293 293
+CAR3 raw: 293 292 292
+status=Sequential skipped=0
+seq=103 ms=10306
+CAR1 raw: 289 289 288
+CAR2 raw: 288 288 288
+CAR3 raw: 288 288 288
+status=Sequential skipped=0
+seq=104 ms=10406
+CAR1 raw: 291 291 290
+CAR2 raw: 290 290 290
+CAR3 raw: 290 290 289
+status=Sequential skipped=0
+seq=105 ms=10506
+CAR1 raw: 286 286 285
+CAR2 raw: 285 285 285
+CAR3 raw: 284 284 283
+status=Sequential skipped=0
+seq=106 ms=10606
+CAR1 raw: 283 283 283
+CAR2 raw: 282 282 282
+CAR3 raw: 282 281 281
+status=Sequential skipped=0
+seq=107 ms=10706
+CAR1 raw: 282 282 282
+CAR2 raw: 282 282 282
+CAR3 raw: 282 282 282
+status=Sequential skipped=0
+seq=108 ms=10806
+CAR1 raw: 288 288 288
+CAR2 raw: 288 288 288
+CAR3 raw: 288 288 288
+status=Sequential skipped=0
+seq=109 ms=10906
+CAR1 raw: 289 289 289
+CAR2 raw: 289 289 289
+CAR3 raw: 289 289 289
+status=Sequential skipped=0
+seq=110 ms=11006
+CAR1 raw: 290 290 290
+CAR2 raw: 290 290 290
+CAR3 raw: 290 290 289
+status=Sequential skipped=0
+seq=111 ms=11106
+CAR1 raw: 291 291 291
+CAR2 raw: 291 290 290
+CAR3 raw: 289 289 289
+status=Sequential skipped=0
+seq=112 ms=11206
+CAR1 raw: 288 288 288
+CAR2 raw: 288 288 288
+CAR3 raw: 288 288 288
+status=Sequential skipped=0
+seq=113 ms=11307
+CAR1 raw: 288 288 288
+CAR2 raw: 288 288 288
+CAR3 raw: 288 288 288
+status=Sequential skipped=0
+seq=114 ms=11406
+CAR1 raw: 290 290 290
+CAR2 raw: 290 289 289
+CAR3 raw: 289 289 288
+status=Sequential skipped=0
+seq=115 ms=11506
+CAR1 raw: 291 291 291
+CAR2 raw: 290 290 290
+CAR3 raw: 290 289 289
+status=Sequential skipped=0
+seq=116 ms=11607
+CAR1 raw: 293 293 293
+CAR2 raw: 293 293 293
+CAR3 raw: 293 293 292
+status=Sequential skipped=0
+seq=117 ms=11706
+CAR1 raw: 295 295 295
+CAR2 raw: 295 295 295
+CAR3 raw: 294 294 294
+status=Sequential skipped=0
+seq=118 ms=11806
+CAR1 raw: 297 297 296
+CAR2 raw: 296 296 296
+CAR3 raw: 296 296 296
+status=Sequential skipped=0
+seq=119 ms=11907
+CAR1 raw: 296 296 296
+CAR2 raw: 296 296 296
+CAR3 raw: 296 296 296
+status=Sequential skipped=0
+seq=120 ms=12006
+CAR1 raw: 296 296 295
+CAR2 raw: 295 295 295
+CAR3 raw: 294 294 293
+status=Sequential skipped=0
+seq=121 ms=12106
+CAR1 raw: 294 294 293
+CAR2 raw: 293 293 293
+CAR3 raw: 293 293 293
+status=Sequential skipped=0
+seq=122 ms=12207
+CAR1 raw: 293 293 293
+CAR2 raw: 293 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=123 ms=12306
+CAR1 raw: 292 292 292
+CAR2 raw: 292 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=124 ms=12406
+CAR1 raw: 292 292 292
+CAR2 raw: 292 292 292
+CAR3 raw: 292 292 291
+status=Sequential skipped=0
+seq=125 ms=12507
+CAR1 raw: 292 292 292
+CAR2 raw: 292 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=126 ms=12606
+CAR1 raw: 293 293 293
+CAR2 raw: 293 293 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=127 ms=12706
+CAR1 raw: 291 291 291
+CAR2 raw: 290 290 290
+CAR3 raw: 290 290 290
+status=Sequential skipped=0
+seq=128 ms=12806
+CAR1 raw: 289 289 289
+CAR2 raw: 289 288 288
+CAR3 raw: 288 288 288
+status=Sequential skipped=0
+seq=129 ms=12906
+CAR1 raw: 289 289 289
+CAR2 raw: 289 288 288
+CAR3 raw: 288 288 288
+status=Sequential skipped=0
+seq=130 ms=13006
+CAR1 raw: 288 288 288
+CAR2 raw: 288 288 288
+CAR3 raw: 288 288 288
+status=Sequential skipped=0
+seq=131 ms=13106
+CAR1 raw: 290 290 290
+CAR2 raw: 290 290 290
+CAR3 raw: 290 290 290
+status=Sequential skipped=0
+seq=132 ms=13206
+CAR1 raw: 293 293 293
+CAR2 raw: 292 292 292
+CAR3 raw: 292 292 291
+status=Sequential skipped=0
+seq=133 ms=13306
+CAR1 raw: 292 292 292
+CAR2 raw: 292 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=134 ms=13406
+CAR1 raw: 294 294 294
+CAR2 raw: 294 293 293
+CAR3 raw: 293 293 293
+status=Sequential skipped=0
+seq=135 ms=13506
+CAR1 raw: 296 296 296
+CAR2 raw: 296 296 296
+CAR3 raw: 296 296 296
+status=Sequential skipped=0
+seq=136 ms=13606
+CAR1 raw: 298 297 297
+CAR2 raw: 297 296 296
+CAR3 raw: 296 296 296
+status=Sequential skipped=0
+seq=137 ms=13706
+CAR1 raw: 297 297 297
+CAR2 raw: 297 297 297
+CAR3 raw: 297 296 296
+status=Sequential skipped=0
+seq=138 ms=13806
+CAR1 raw: 298 298 298
+CAR2 raw: 298 297 297
+CAR3 raw: 297 297 297
+status=Sequential skipped=0
+seq=139 ms=13906
+CAR1 raw: 299 299 299
+CAR2 raw: 299 299 298
+CAR3 raw: 298 298 298
+status=Sequential skipped=0
+seq=140 ms=14006
+CAR1 raw: 298 298 297
+CAR2 raw: 297 296 296
+CAR3 raw: 296 296 296
+status=Sequential skipped=0
+seq=141 ms=14106
+CAR1 raw: 296 296 296
+CAR2 raw: 296 296 296
+CAR3 raw: 296 296 296
+status=Sequential skipped=0
+seq=142 ms=14206
+CAR1 raw: 296 296 296
+CAR2 raw: 296 295 295
+CAR3 raw: 295 295 294
+status=Sequential skipped=0
+seq=143 ms=14306
+CAR1 raw: 295 295 294
+CAR2 raw: 294 293 293
+CAR3 raw: 293 293 292
+status=Sequential skipped=0
+seq=144 ms=14406
+CAR1 raw: 294 294 293
+CAR2 raw: 293 293 293
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=145 ms=14507
+CAR1 raw: 293 293 293
+CAR2 raw: 293 293 293
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=146 ms=14606
+CAR1 raw: 293 293 293
+CAR2 raw: 293 293 293
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=147 ms=14706
+CAR1 raw: 293 293 293
+CAR2 raw: 293 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=148 ms=14807
+CAR1 raw: 293 293 293
+CAR2 raw: 293 293 293
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=149 ms=14906
+CAR1 raw: 294 294 294
+CAR2 raw: 294 293 293
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=150 ms=15006
+CAR1 raw: 294 294 294
+CAR2 raw: 293 293 293
+CAR3 raw: 293 293 293
+status=Sequential skipped=0
+seq=151 ms=15107
+CAR1 raw: 295 295 295
+CAR2 raw: 295 294 294
+CAR3 raw: 294 294 294
+status=Sequential skipped=0
+seq=152 ms=15206
+CAR1 raw: 296 296 296
+CAR2 raw: 296 295 295
+CAR3 raw: 295 294 294
+status=Sequential skipped=0
+seq=153 ms=15306
+CAR1 raw: 296 296 296
+CAR2 raw: 296 296 296
+CAR3 raw: 296 296 296
+status=Sequential skipped=0
+seq=154 ms=15407
+CAR1 raw: 297 297 297
+CAR2 raw: 297 296 296
+CAR3 raw: 296 296 295
+status=Sequential skipped=0
+seq=155 ms=15506
+CAR1 raw: 298 298 298
+CAR2 raw: 298 298 298
+CAR3 raw: 297 297 296
+status=Sequential skipped=0
+seq=156 ms=15606
+CAR1 raw: 297 297 297
+CAR2 raw: 297 297 297
+CAR3 raw: 296 296 296
+status=Sequential skipped=0
+seq=157 ms=15707
+CAR1 raw: 296 296 296
+CAR2 raw: 296 296 296
+CAR3 raw: 296 296 296
+status=Sequential skipped=0
+seq=158 ms=15806
+CAR1 raw: 295 295 294
+CAR2 raw: 294 294 293
+CAR3 raw: 293 293 293
+status=Sequential skipped=0
+seq=159 ms=15906
+CAR1 raw: 292 292 292
+CAR2 raw: 292 292 291
+CAR3 raw: 291 291 291
+status=Sequential skipped=0
+seq=160 ms=16006
+CAR1 raw: 291 291 290
+CAR2 raw: 290 290 290
+CAR3 raw: 290 290 290
+status=Sequential skipped=0
+seq=161 ms=16106
+CAR1 raw: 291 291 291
+CAR2 raw: 291 290 290
+CAR3 raw: 290 290 289
+status=Sequential skipped=0
+seq=162 ms=16206
+CAR1 raw: 294 294 294
+CAR2 raw: 294 294 294
+CAR3 raw: 294 294 294
+status=Sequential skipped=0
+seq=163 ms=16306
+CAR1 raw: 301 301 301
+CAR2 raw: 301 300 300
+CAR3 raw: 299 299 299
+status=Sequential skipped=0
+seq=164 ms=16406
+CAR1 raw: 301 301 301
+CAR2 raw: 301 301 301
+CAR3 raw: 300 300 300
+status=Sequential skipped=0
+seq=165 ms=16506
+CAR1 raw: 302 302 302
+CAR2 raw: 302 302 302
+CAR3 raw: 301 301 301
+status=Sequential skipped=0
+seq=166 ms=16606
+CAR1 raw: 301 301 300
+CAR2 raw: 300 300 300
+CAR3 raw: 300 300 300
+status=Sequential skipped=0
+seq=167 ms=16706
+CAR1 raw: 300 300 300
+CAR2 raw: 300 300 300
+CAR3 raw: 300 300 299
+status=Sequential skipped=0
+seq=168 ms=16806
+CAR1 raw: 302 302 302
+CAR2 raw: 302 301 301
+CAR3 raw: 301 301 301
+status=Sequential skipped=0
+seq=169 ms=16906
+CAR1 raw: 301 301 300
+CAR2 raw: 300 300 300
+CAR3 raw: 299 299 298
+status=Sequential skipped=0
+seq=170 ms=17006
+CAR1 raw: 295 295 294
+CAR2 raw: 294 294 294
+CAR3 raw: 294 294 294
+status=Sequential skipped=0
+seq=171 ms=17106
+CAR1 raw: 294 294 293
+CAR2 raw: 293 293 293
+CAR3 raw: 293 292 292
+status=Sequential skipped=0
+seq=172 ms=17206
+CAR1 raw: 296 296 296
+CAR2 raw: 296 296 296
+CAR3 raw: 296 296 296
+status=Sequential skipped=0
+seq=173 ms=17306
+CAR1 raw: 302 302 302
+CAR2 raw: 302 301 301
+CAR3 raw: 301 300 300
+status=Sequential skipped=0
+seq=174 ms=17406
+CAR1 raw: 303 303 302
+CAR2 raw: 302 302 301
+CAR3 raw: 301 301 300
+status=Sequential skipped=0
+seq=175 ms=17506
+CAR1 raw: 304 304 304
+CAR2 raw: 304 304 304
+CAR3 raw: 304 304 303
+status=Sequential skipped=0
+seq=176 ms=17606
+CAR1 raw: 301 301 301
+CAR2 raw: 301 301 300
+CAR3 raw: 300 300 299
+status=Sequential skipped=0
+seq=177 ms=17707
+CAR1 raw: 302 302 301
+CAR2 raw: 301 301 301
+CAR3 raw: 300 300 300
+status=Sequential skipped=0
+seq=178 ms=17806
+CAR1 raw: 299 299 298
+CAR2 raw: 298 298 298
+CAR3 raw: 297 297 297
+status=Sequential skipped=0
+seq=179 ms=17906
+CAR1 raw: 299 299 299
+CAR2 raw: 299 298 298
+CAR3 raw: 298 298 298
+status=Sequential skipped=0
+seq=180 ms=18007
+CAR1 raw: 297 297 297
+CAR2 raw: 297 297 297
+CAR3 raw: 297 297 297
+status=Sequential skipped=0
+seq=181 ms=18106
+CAR1 raw: 301 300 300
+CAR2 raw: 300 299 299
+CAR3 raw: 299 299 298
+status=Sequential skipped=0
+seq=182 ms=18206
+CAR1 raw: 298 298 298
+CAR2 raw: 297 297 297
+CAR3 raw: 297 297 297
+status=Sequential skipped=0
+seq=183 ms=18307
+CAR1 raw: 298 298 298
+CAR2 raw: 298 297 297
+CAR3 raw: 297 297 297
+status=Sequential skipped=0
+seq=184 ms=18406
+CAR1 raw: 296 296 296
+CAR2 raw: 296 296 296
+CAR3 raw: 295 295 295
+status=Sequential skipped=0
+seq=185 ms=18506
+CAR1 raw: 293 293 293
+CAR2 raw: 293 293 293
+CAR3 raw: 293 293 292
+status=Sequential skipped=0
+seq=186 ms=18607
+CAR1 raw: 294 294 293
+CAR2 raw: 293 293 293
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=187 ms=18706
+CAR1 raw: 289 289 289
+CAR2 raw: 289 289 289
+CAR3 raw: 289 289 288
+status=Sequential skipped=0
+seq=188 ms=18806
+CAR1 raw: 289 289 289
+CAR2 raw: 288 288 288
+CAR3 raw: 288 288 288
+status=Sequential skipped=0
+seq=189 ms=18907
+CAR1 raw: 288 288 288
+CAR2 raw: 288 288 288
+CAR3 raw: 288 288 288
+status=Sequential skipped=0
+seq=190 ms=19006
+CAR1 raw: 291 291 291
+CAR2 raw: 291 290 290
+CAR3 raw: 290 290 290
+status=Sequential skipped=0
+seq=191 ms=19106
+CAR1 raw: 292 292 292
+CAR2 raw: 292 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=192 ms=19206
+CAR1 raw: 293 293 293
+CAR2 raw: 293 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=193 ms=19306
+CAR1 raw: 294 294 294
+CAR2 raw: 294 294 294
+CAR3 raw: 294 294 294
+status=Sequential skipped=0
+seq=194 ms=19406
+CAR1 raw: 294 294 294
+CAR2 raw: 293 293 293
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=195 ms=19506
+CAR1 raw: 292 292 292
+CAR2 raw: 292 292 292
+CAR3 raw: 292 292 291
+status=Sequential skipped=0
+seq=196 ms=19606
+CAR1 raw: 293 292 292
+CAR2 raw: 292 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=197 ms=19706
+CAR1 raw: 293 293 293
+CAR2 raw: 293 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=198 ms=19806
+CAR1 raw: 293 293 293
+CAR2 raw: 293 293 293
+CAR3 raw: 293 293 292
+status=Sequential skipped=0
+seq=199 ms=19906
+CAR1 raw: 293 293 293
+CAR2 raw: 292 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=200 ms=20006
+CAR1 raw: 292 292 292
+CAR2 raw: 292 291 291
+CAR3 raw: 291 290 290
+status=Sequential skipped=0
+seq=201 ms=20106
+CAR1 raw: 291 291 291
+CAR2 raw: 291 291 291
+CAR3 raw: 290 290 290
+status=Sequential skipped=0
+seq=202 ms=20206
+CAR1 raw: 292 292 292
+CAR2 raw: 292 292 292
+CAR3 raw: 292 292 292
+status=Sequential skipped=0
+seq=203 ms=20306
+CAR1 raw: 293 293 293
+CAR2 raw: 293 293 293
+CAR3 raw: 293 293 292
+status=Sequential skipped=0
+seq=204 ms=20406
+CAR1 raw: 294 294 294
+CAR2 raw: 294 293 293
+CAR3 raw: 293 293 292
+status=Sequential skipped=0
+seq=205 ms=20506
+CAR1 raw: 295 295 294
+CAR2 raw: 294 293 293
+CAR3 raw: 293 293 292
+status=Sequential skipped=0
+seq=206 ms=20606
+CAR1 raw: 294 294 294
+CAR2 raw: 294 293 293
+CAR3 raw: 293 293 292
+status=Sequential skipped=0
+seq=207 ms=20706
+CAR1 raw: 294 294 294
+CAR2 raw: 294 294 293
+CAR3 raw: 293 293 293
+status=Sequential skipped=0
+seq=208 ms=20806
+CAR1 raw: 294 294 294
+CAR2 raw: 294 294 294
+CAR3 raw: 294 293 293
+status=Sequential skipped=0
+seq=209 ms=20907
+CAR1 raw: 294 294 294
+CAR2 raw: 294 293 293
+CAR3 raw: 293 293 293
+status=Sequential skipped=0
+seq=210 ms=21006
+CAR1 raw: 295 295 295
+CAR2 raw: 295 295 295
+CAR3 raw: 294 294 294
+status=Sequential skipped=0
+seq=211 ms=21106
+CAR1 raw: 296 296 296
+CAR2 raw: 296 296 296
+CAR3 raw: 295 295 295
+status=Sequential skipped=0
+valid_frames=211 invalid_lines=1 overlong_lines=0

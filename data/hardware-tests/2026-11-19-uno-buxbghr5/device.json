@@ -1,0 +1,9 @@
+{
+  "host": "macOS arm64",
+  "port": "/dev/cu.usbserial-2140",
+  "usb_vid": "1a86",
+  "usb_pid": "7523",
+  "active_driver": "com.apple.DriverKit.AppleUSBCHCOM",
+  "hardware": "Uno only; FSR and MUX not connected (user confirmed)",
+  "initial_bytes": 0
+}
