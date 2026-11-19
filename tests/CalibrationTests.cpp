@@ -110,6 +110,7 @@ int main()
               && calibrationFirstChannel(CalibrationVehicle::Car3) == 6, "CAR sensor indices");
         for (auto pair : std::vector<std::pair<std::size_t, std::string_view>>{
             {2,"car1"}, {2,"CAR4"}, {4,""}, {4,"-1"}, {4,"-0"}, {4,"NaN"}, {4,"inf"}, {4,"1e999"},
+            {4,"+500"}, {4," 500"}, {4,"500 "}, {4,"1,5"}, {4,"0x10"}, {4,"1e-999"},
             {4,"500x"}, {6,"center"}, {6,"BACK"}, {8,"0"}, {8,"-1"}, {8,"4294967296"}, {10,""}})
         {
             auto invalid = baseArgs();
@@ -127,7 +128,7 @@ int main()
         }
         check(throws([] { parseCalibrationOptions(Args{}); }), "missing device rejected");
         check(throws([] { parseCalibrationOptions(Args{"/dev/test"}); }), "missing required labels rejected");
-        for (const auto weight : {"0", "2000", "2500.5"})
+        for (const auto weight : {"0", "2000", "2500.5", "2.5e3", ".5", "1e+3"})
         {
             auto args = baseArgs(); args[4] = weight;
             check(parseCalibrationOptions(args).metadata.knownWeightG >= 0, "reference label not capacity-clamped");

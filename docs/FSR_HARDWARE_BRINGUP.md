@@ -5,7 +5,7 @@
 freshness rejection, CompositeInputSource, Guidance/LED 연결은 아직 구현하지 않는다.
 기존 `railflow`, `MockInput`, `InputFrame`, core 계산과 OpenCV optional 구조는 그대로 유지한다.
 
-차량별 FSR은 25cm 길이 방향에 3개씩 일렬 배치한다. 센서 간격은 아직 미확정이다.
+차량별 FSR은 30cm 길이 방향에 3개씩 일렬 배치한다. 센서 간격은 아직 미확정이다.
 모형 치수·센서 순서의 기준은 [FINAL_MODEL_LAYOUT.md](FINAL_MODEL_LAYOUT.md)다.
 
 ## Wiring

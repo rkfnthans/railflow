@@ -10,12 +10,12 @@ namespace TrainLayout
     inline constexpr std::size_t FSR_PER_CAR = 3;
     inline constexpr std::size_t TOTAL_FSR_COUNT = CAR_COUNT * FSR_PER_CAR;
 
-    inline constexpr double CAR_LENGTH_CM = 25.0; // train length direction
+    inline constexpr double CAR_LENGTH_CM = 30.0; // train length direction
     inline constexpr double CAR_WIDTH_CM = 15.0;
     inline constexpr double CAR_HEIGHT_CM = 15.0; // approximate target height
     inline constexpr double TOTAL_BODY_LENGTH_CM = CAR_COUNT * CAR_LENGTH_CM;
 
-    // Three sensors per car lie in ONE ROW along the 25 cm length axis.
+    // Three sensors per car lie in ONE ROW along the 30 cm length axis.
     // Exact gaps/coordinates are NOT yet specified; do not assume equal spacing.
     // Zero-based indices: (car, sensor) -> RF1 adc field / CD74HC4067 C channel.
     constexpr std::size_t channelIndex(std::size_t car, std::size_t sensor)

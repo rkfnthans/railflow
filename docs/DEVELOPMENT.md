@@ -1,6 +1,6 @@
 # RailFlow 개발 상태
 
-확정된 3량(차량당 25×15×약15cm)과 길이방향 FSR 일렬 3개 배치는 [FINAL_MODEL_LAYOUT.md](FINAL_MODEL_LAYOUT.md)를 참고한다.
+확정된 3량(차량당 30×15×약15cm)과 길이방향 FSR 일렬 3개 배치는 [FINAL_MODEL_LAYOUT.md](FINAL_MODEL_LAYOUT.md)를 참고한다.
 
 ## 빌드와 실행
 

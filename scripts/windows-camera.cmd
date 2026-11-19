@@ -1,6 +1,8 @@
 @echo off
 setlocal EnableExtensions DisableDelayedExpansion
-cd /d "%~dp0"
+set "packageDir=%~dp0"
+if not exist "%packageDir%scripts\launch-windows.cmd" for %%I in ("%~dp0..") do set "packageDir=%%~fI\"
+cd /d "%packageDir%"
 if errorlevel 1 exit /b 1
 echo RailFlow USB camera preview
 echo Try index 1 if index 0 shows the laptop's built-in camera.
@@ -19,7 +21,8 @@ if not exist "camera-logs" mkdir "camera-logs"
 set "report=camera-logs\preview-%RANDOM%-%RANDOM%.txt"
 echo Starting camera %cameraIndex% using %backend%.
 echo Close the preview with Q, Esc or the window close button.
-"%~dp0railflow_camera_preview.exe" --camera %cameraIndex% --backend %backend% > "%report%" 2>&1
+set "RAILFLOW_PROGRAM=railflow_camera_preview"
+call "%packageDir%scripts\launch-windows.cmd" --camera %cameraIndex% --backend %backend% > "%report%" 2>&1
 set "result=%ERRORLEVEL%"
 type "%report%"
 echo EXIT=%result%

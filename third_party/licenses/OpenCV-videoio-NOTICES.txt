@@ -1,0 +1,13 @@
+// This file is part of OpenCV project.
+// It is subject to the license terms in the LICENSE file found in the top-level directory
+// of this distribution and at http://opencv.org/license.html
+
+#include "precomp.hpp"
+/*
+   Media Foundation-based Video Capturing module is based on
+   videoInput library by Evgeny Pereguda:
+   http://www.codeproject.com/Articles/559437/Capturing-of-video-from-web-camera-on-Windows-7-an
+   Originally licensed under The Code Project Open License (CPOL) 1.02:
+   http://www.codeproject.com/info/cpol10.aspx
+*/
+//require Windows 8 for some of the formats defined otherwise could baseline on lower version

@@ -165,6 +165,12 @@ if(RAILFLOW_ENABLE_OPENCV)
         add_executable(railflow_camera_preview examples/camera_preview.cpp)
         target_link_libraries(railflow_camera_preview PRIVATE railflow_camera railflow_console)
         railflow_enable_warnings(railflow_camera_preview)
+        if(APPLE)
+            target_link_options(railflow_camera_preview PRIVATE
+                "LINKER:-sectcreate,__TEXT,__info_plist,${CMAKE_CURRENT_SOURCE_DIR}/cmake/CameraInfo.plist")
+            set_property(TARGET railflow_camera_preview APPEND PROPERTY
+                LINK_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/cmake/CameraInfo.plist")
+        endif()
         if(BUILD_TESTING)
             add_test(NAME CameraPreviewCliTests COMMAND ${CMAKE_COMMAND}
                 "-DRAILFLOW_PREVIEW=$<TARGET_FILE:railflow_camera_preview>"

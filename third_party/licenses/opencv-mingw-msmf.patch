@@ -1,0 +1,47 @@
+--- a/modules/videoio/src/cap_msmf.cpp
++++ b/modules/videoio/src/cap_msmf.cpp
+@@ -75,6 +75,10 @@
+ 
+ #include <mferror.h>
+ #include <comdef.h>
++#ifdef __MINGW32__
++// The function is exported by mfplat; MinGW headers omit its declaration.
++EXTERN_C HRESULT WINAPI MFCreateMFByteStreamOnStream(IStream*, IMFByteStream**);
++#endif
+ 
+ #include <shlwapi.h>  // QISearch
+ 
+@@ -153,6 +157,10 @@
+         return p->QueryInterface(__uuidof(U), reinterpret_cast<void**>((T**)&lp));
+     }
+ private:
++#ifdef __MINGW32__
++    // MinGW's macro declares an IID getter that must be a static class member.
++    static
++#endif
+     _COM_SMARTPTR_TYPEDEF(T, __uuidof(T));
+     TPtr p;
+ };
+@@ -424,7 +432,8 @@
+ #endif
+         static const QITAB qit[] =
+         {
+-            QITABENT(SourceReaderCB, IMFSourceReaderCallback),
++            { &__uuidof(IMFSourceReaderCallback),
++              static_cast<int>(OFFSETOFCLASS(IMFSourceReaderCallback, SourceReaderCB)) },
+             { 0 },
+         };
+ #ifdef _MSC_VER
+--- a/modules/videoio/cmake/detect_msmf.cmake
++++ b/modules/videoio/cmake/detect_msmf.cmake
+@@ -18,5 +18,9 @@
+   if(HAVE_MSMF_DXVA)
+     list(APPEND defs "HAVE_MSMF_DXVA")
+   endif()
+-  ocv_add_external_target(msmf "" "" "${defs}")
++  set(msmf_libraries "")
++  if(MINGW)
++    set(msmf_libraries mfplat mf mfuuid strmiids mfreadwrite shlwapi ole32 oleaut32)
++  endif()
++  ocv_add_external_target(msmf "" "${msmf_libraries}" "${defs}")
+ endif()

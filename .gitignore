@@ -1,1 +1,10 @@
 build/
+.DS_Store
+__pycache__/
+/logs/
+/camera-logs/
+/system-checks/
+/windows-check-*/
+/data/raw_adc.csv
+/data/calibration/
+/data/logs/*.csv

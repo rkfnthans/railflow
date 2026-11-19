@@ -5,7 +5,7 @@ regression, polynomial fitting, lookup table, tare algorithm, 승객 수 추론�
 SerialVehicleLoadSource / CompositeInputSource / freshness / LED 연결도 이번 범위가 아니다.
 기존 `railflow`, `railflow_serial_monitor`, firmware와 raw CSV schema는 변경하지 않는다.
 
-FSR 3개는 25cm 길이 방향으로 일렬 배치하며, 정확한 센서 간격은 아직 미확정이다.
+FSR 3개는 30cm 길이 방향으로 일렬 배치하며, 정확한 센서 간격은 아직 미확정이다.
 실제 배치와 조립 형태에 따라 보정 값이 달라질 수 있다.
 [FINAL_MODEL_LAYOUT.md](FINAL_MODEL_LAYOUT.md)를 참조한다.
 

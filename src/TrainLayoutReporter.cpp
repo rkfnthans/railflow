@@ -15,7 +15,8 @@ void printTrainLayout(std::ostream& output)
            << TrainLayout::TOTAL_BODY_LENGTH_CM << " cm\n"
            << "FSRs per car: " << TrainLayout::FSR_PER_CAR << "\n"
            << "Total FSRs: " << TrainLayout::TOTAL_FSR_COUNT << "\n"
-           << "Top view: each row runs along the 25 cm length axis.\n";
+           << "Top view: each row runs along the " << TrainLayout::CAR_LENGTH_CM
+           << " cm length axis.\n";
 
     for (std::size_t car = 0; car < TrainLayout::CAR_COUNT; ++car)
     {

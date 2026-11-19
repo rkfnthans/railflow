@@ -2,10 +2,16 @@
 
 ## 실행 패키지 자동 확인
 
-Windows 실행용 ZIP의 `TEST_WINDOWS.cmd`를 실행하면 ASCII 명령으로 차량 배치, Mock 데모,
-CSV 3행 저장, 모니터·보정 기록기의 도움말을 검사한다. 결과는 새 `windows-check-*` 폴더의
+GitHub에서 받은 `railflow` 폴더에서 `START_RAILFLOW.cmd`로 메뉴를 연다.
+Windows와 Mac 실행 파일은 같은 저장소의 `bin`에 포함하며 OpenCV 별도 설치가 필요 없다.
+자세한 시작 방법은 [공통 실행 안내](CROSS_PLATFORM_SETUP.md)를 따른다.
+
+실행용 ZIP의 `TEST_SYSTEM.cmd` 또는 `TEST_WINDOWS.cmd`를 실행하면 ASCII 명령으로 차량 배치, Mock 데모,
+CSV 3행 저장, 모니터·보정 기록기의 도움말, 카메라 테스트 화면 생성을 검사한다. 정상 결과는
+`Checks=7 Failures=0`이다. 결과는 새 `windows-check-*` 폴더의
 `windows-test.txt`와 `data/logs/railflow_log.csv`에 저장된다. 패키지의 기존 데이터와 별도 경로를 사용한다.
-검사 파일 원본은 `scripts/windows-check.cmd`이며 실행 패키지에서는 세 `.exe` 옆에 배치한다.
+검사 파일 원본은 `scripts/windows-check.cmd`이며 루트의 `TEST_SYSTEM.cmd`가 이를 호출한다.
+Windows 실행 파일은 `bin/windows-x64`에 둔다.
 
 옵션 입력 오류 시 프로그램은 받은 인수를 16진수 바이트로 출력한다. ASCII `--`는 `2d 2d`다.
 복사 과정에서 대시 문자가 바뀌었는지 이 값으로 확인할 수 있다.
@@ -28,7 +34,7 @@ ctest --test-dir build-win -C Release --output-on-failure
 .\build-win\Release\railflow.exe --demo --frames 3 --period-ms 100 --no-log
 ```
 
-위 구성은 OpenCV와 Arduino 없이 실행할 수 있습니다. `--layout`은 25 × 15 × 약 15 cm인 3량과 길이 방향 FSR 9개의 채널을 표시합니다. `--demo`는 Mock 차량 하중과 승객 위치로 차량별 혼잡도, Zone별 인원수, 추천 승차 위치를 계산합니다. Mock 결과를 `data/logs/railflow_log.csv`에 추가하려면 `--no-log`를 빼고 실행합니다. Windows 테스트의 `Win32SerialTransportTests`는 가상 COM 입력으로 두 시리얼 도구의 처리 및 CSV 기록을 검증합니다.
+위 구성은 OpenCV와 Arduino 없이 실행할 수 있습니다. `--layout`은 30 × 15 × 약 15 cm인 3량과 길이 방향 FSR 9개의 채널을 표시합니다. `--demo`는 Mock 차량 하중과 승객 위치로 차량별 혼잡도, Zone별 인원수, 추천 승차 위치를 계산합니다. Mock 결과를 `data/logs/railflow_log.csv`에 추가하려면 `--no-log`를 빼고 실행합니다. Windows 테스트의 `Win32SerialTransportTests`는 가상 COM 입력으로 두 시리얼 도구의 처리 및 CSV 기록을 검증합니다.
 
 ## Arduino COM 포트 및 raw ADC 모니터
 

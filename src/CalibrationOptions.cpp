@@ -1,7 +1,9 @@
 #include "CalibrationOptions.hpp"
 
 #include <charconv>
+#include <locale>
 #include <set>
+#include <sstream>
 #include <stdexcept>
 
 namespace
@@ -13,6 +15,25 @@ namespace
         const auto parsed = std::from_chars(value.data(), value.data() + value.size(), result);
         if (parsed.ec != std::errc{} || parsed.ptr != value.data() + value.size())
             throw std::invalid_argument("Invalid numeric calibration option");
+        return result;
+    }
+
+    // Floating-point from_chars requires a much newer macOS libc++ than the
+    // rest of RailFlow. Classic-locale extraction keeps the CLI portable.
+    template<> double numeric<double>(std::string_view value)
+    {
+        if (value.empty()) throw std::invalid_argument("Empty numeric calibration option");
+        if (value.front() == '+' || value.find_first_of("xX") != std::string_view::npos)
+            throw std::invalid_argument("Invalid numeric calibration option");
+        std::istringstream input{std::string(value)};
+        input.imbue(std::locale::classic());
+        double result{};
+        input >> std::noskipws >> result;
+        if (!input || input.peek() != std::char_traits<char>::eof())
+            throw std::invalid_argument("Invalid numeric calibration option");
+        const auto mantissa = value.substr(0, value.find_first_of("eE"));
+        if (result == 0.0 && mantissa.find_first_of("123456789") != std::string_view::npos)
+            throw std::invalid_argument("Numeric calibration option underflows double precision");
         return result;
     }
 }

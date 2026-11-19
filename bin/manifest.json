@@ -1,0 +1,20 @@
+{
+  "platforms": [
+    "Windows x64",
+    "macOS arm64",
+    "macOS x86_64"
+  ],
+  "macos_deployment_target": "11.0",
+  "sha256": {
+    "macos/railflow": "3f4458f76799ef45fc0ee93d831fe959f6929299725365f496323007e107970b",
+    "macos/railflow_calibration_record": "730c398ba41a06ffbf0f6ca199ecac15139a4abc90c7dafea1a10c197cbd91f5",
+    "macos/railflow_camera_preview": "bb9b13445758d58263a4425adda26d7c5d1d565dcd120245900860d1bf08f647",
+    "macos/railflow_detect": "191187b49929146fae090aceee6a004dc05df923cfc8136f80465a41bed25147",
+    "macos/railflow_serial_monitor": "251d057cb18a5d3b0d27788a436d04b7e2cde60ad31c8181a1d4ffeaeae5c1e9",
+    "windows-x64/railflow.exe": "99ca3dcda4efa6aa3b36d423e8cecc3f3cfd2c5d1946de8fa1a0cdf9ad8df90a",
+    "windows-x64/railflow_calibration_record.exe": "8317e8a1e05c2d0c0911d85ab1ab3fd4cb9a79d30eb70aa8d26fb39c447077ec",
+    "windows-x64/railflow_camera_preview.exe": "b80e13b6d334e41d03fdc8749a8f9d6c57048a574919bc1f76a7ccbd998a4689",
+    "windows-x64/railflow_detect.exe": "dcc8c07d8e0f2282ac91de5dfd626e069e3e9ca22884aba47800a72089bdb360",
+    "windows-x64/railflow_serial_monitor.exe": "4cb8c719c83a965630f59f007d1c6ce1db58e3e776193194724fc25cca5f8e38"
+  }
+}

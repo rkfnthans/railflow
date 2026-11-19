@@ -7,7 +7,7 @@ namespace AcquisitionConfig
     constexpr uint8_t SELECT_PINS[4] = {2, 3, 4, 5}; // S0 (LSB) .. S3 (MSB)
     constexpr uint8_t SIGNAL_PIN = A0;
     // CAR1 FSR1..3 -> C0..2, CAR2 FSR1..3 -> C3..5, CAR3 FSR1..3 -> C6..8.
-    // The three sensors in each car are aligned along its 25 cm length.
+    // The three sensors in each car are aligned along its 30 cm length.
     constexpr uint8_t CHANNEL_COUNT = 9;
     constexpr unsigned long BAUD_RATE = 115200UL;
     constexpr uint32_t FRAME_PERIOD_MS = 100;
